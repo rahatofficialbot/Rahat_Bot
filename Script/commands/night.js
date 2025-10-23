@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("Good night")==0 || event.body.indexOf("good night")==0 || event.body.indexOf("Gud night")==0 || event.body.indexOf("Gud nini")==0) {
 		var msg = {
-				body: "Good night 🌉✨ Bye tc 💫🥀 Sweet dreams 😴",
+				body: "🌉✨ Bye tc 💫🥀 Sweet dreams 😴",
 				attachment: fs.createReadStream(__dirname + `/cache/night.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
