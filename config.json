@@ -2,7 +2,7 @@
     "language": "en",
     "keyActive": "",
     "DeveloperMode": false,
-    "autoCreateDB": false,
+    "autoCreateDB": true,
     "notiGroup": true,
     "NOTIFICATION": true,
     "allowInbox": false,
@@ -17,7 +17,7 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "🔰𝗥𝗮𝗵𝗮𝘁_𝗕𝗼𝘁🔰",
-    "PREFIX": "-",
+    "PREFIX": ".",
     "ADMINBOT": [
         "61582311465479",
         "61582311465479",
