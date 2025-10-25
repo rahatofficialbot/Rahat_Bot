@@ -19,6 +19,22 @@ module.exports.config = {
   category: " ai",
   coolddowns: 5,
 };
+module.exports.config = {
+  name: "ai",
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "dipto (Modified by Rahat)",
+  description: "ai conversation",
+  commandCategory: "ai",
+  usages: "",
+  cooldowns: 2,
+  dependencies: {
+    "request":"",
+    "fs-extra":"",
+    "axios":""
+  }
+};
+
 module.exports.handleReply = async function ({ api, event, handleReply }) {
   //api.unsendMessage(handleReply.messageID);
   const { author } = handleReply;
